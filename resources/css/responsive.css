@@ -1,0 +1,244 @@
+/*css for responsive*/
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 30px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+/*header css*/
+@media only screen and (max-width: 480px) {
+    nav {
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+
+
+
+    nav .main-nav {
+        display: none;
+    }
+
+    header span {
+        display: block;
+        margin: 40px -8px;
+        float: right;
+        font-size: 50px;
+        border: 1px solid #fff;
+        padding: 2px 5px;
+    }
+
+    nav img {
+        font-size: 30px;
+        margin: 50px 0px 0px -100px;
+        display: inline-block;
+    }
+
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background: #30344e;
+
+    }
+
+
+
+    /*header middle part*/
+    header h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 100px;
+        margin-left: 15px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    header p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        font-family: sans-serif;
+        margin-top: 25px;
+    }
+
+    header button {
+        margin-top: 60px;
+        background: #e84545;
+        font-size: 13px;
+        font-weight: 500;
+        color: #fff;
+        border: 1px solid #e84545;
+        padding: 10px 15px;
+        border-radius: 5px solid #e84545;
+        text-transform: uppercase;
+
+
+    }
+
+
+
+
+
+
+
+
+    /*active box*/
+
+    /*active box css*/
+
+    .col-3 {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px;
+
+    }
+
+    .col-3,
+    .box4 {
+        margin-top: 70px;
+    }
+
+
+
+    /*work section*/
+
+
+    .col-4 {
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+
+    .col-4 img {
+
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*team section*/
+    .grid-col-4 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        padding: 15px;
+    }
+
+    .team h3 {
+        text-align: center;
+    }
+
+    .team-1 span {
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .team-2 span {
+        margin-left: 10px;
+
+    }
+
+    .team-3 span {
+        margin-left: 5px;
+    }
+
+    .team-4 span {
+        margin-left: 5px;
+    }
+
+    .team .icon {
+        text-align: center;
+    }
+
+    /* portfolio css*/
+
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    portfolio p {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 60px;
+
+    }
+
+    .portfolio span {
+        font-size: 13px;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    /*contact css*/
+    .contact-3 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+
+    }
+
+    .contact-item p {
+        padding: 10px;
+        font-size: 12px;
+        color: #a9aab7;
+        text-align: center;
+
+    }
+
+    .contact span {
+        font-size: 12px;
+        color: #a9aab7;
+        padding: 10px;
+
+    }
+
+    .contact-item a i {
+        color: #fff;
+        padding: 10px;
+        margin-top: 10px;
+        border: 2px solid #fff;
+        font-size: 12px;
+    }
+
+
+
+
+
+}
+
+
+
+/*responsive for 375*/
+
+
+
+
+
+
+
+/*header css*/
+
+
+/*header middle part*/
+
+
+/*
+for 375
+*/
